@@ -1,0 +1,3 @@
+.pytest_cache/
+.idea/
+src/task_two_sum/__pycache__/
