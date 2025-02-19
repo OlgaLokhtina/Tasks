@@ -13,11 +13,11 @@ class ListNode:
         vpr.next = ListNode(val)
 
     def print_list_node(self):
-        print("LIST:", self.val, end=' ')
+        print("LIST:", self.val, end=" ")
         node = self
         while node.next:
             node = node.next
-            print(node.val, end=' ')
+            print(node.val, end=" ")
 
 
 def transform(lst: list):

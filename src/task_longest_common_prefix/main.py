@@ -10,4 +10,3 @@ class Solution:
                     return prefix
             prefix = a
         return prefix
-

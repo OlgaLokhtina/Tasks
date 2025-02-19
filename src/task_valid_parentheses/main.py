@@ -1,5 +1,5 @@
 class Solution:
-    def isValid(self, s:str) -> bool:
+    def isValid(self, s: str) -> bool:
         stack = []
         open_br = ("(", "[", "{")
         close_br = (")", "]", "}")

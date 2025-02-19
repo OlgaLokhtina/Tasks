@@ -5,7 +5,7 @@ class Solution:
             if el > nums[i]:
                 i += 1
                 nums[i] = el
-        for j in range(i+1, len(nums)):
+        for j in range(i + 1, len(nums)):
             nums[j] = "_"
         print(nums)
-        return i+1
+        return i + 1
